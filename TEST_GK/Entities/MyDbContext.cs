@@ -28,5 +28,15 @@ namespace TEST_GK.Entities
                 .IsRequired(true)
                 .IsUnicode(true);
             });
+            modelBuilder.Entity<Khoa>(k =>
+            {
+                k.ToTable("Khoa");
+                k.HasKey(k => k.MaKhoa);
+                k.Property(k => k.TenKhoa)
+                .HasMaxLength(150)
+                .IsRequired(true)
+                .IsUnicode(true);
+            });
         }
+    }
 }
