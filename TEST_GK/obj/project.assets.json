@@ -8877,19 +8877,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Nguyen Quoc Cuong\\.nuget\\packages\\": {}
+    "C:\\Users\\Kim Anh\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Nguyen Quoc Cuong\\source\\repos\\TEST_GK\\TEST_GK\\TEST_GK.csproj",
+      "projectUniqueName": "C:\\Users\\Kim Anh\\source\\repos\\TEST_NET\\TEST_GK\\TEST_GK.csproj",
       "projectName": "TEST_GK",
-      "projectPath": "C:\\Users\\Nguyen Quoc Cuong\\source\\repos\\TEST_GK\\TEST_GK\\TEST_GK.csproj",
-      "packagesPath": "C:\\Users\\Nguyen Quoc Cuong\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Nguyen Quoc Cuong\\source\\repos\\TEST_GK\\TEST_GK\\obj\\",
+      "projectPath": "C:\\Users\\Kim Anh\\source\\repos\\TEST_NET\\TEST_GK\\TEST_GK.csproj",
+      "packagesPath": "C:\\Users\\Kim Anh\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Kim Anh\\source\\repos\\TEST_NET\\TEST_GK\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Nguyen Quoc Cuong\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Kim Anh\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -8901,7 +8901,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "projectReferences": {}
         }
       },
@@ -8913,7 +8912,6 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
-        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "EntityFramework": {
             "target": "Package",
@@ -8962,7 +8960,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
       }
     }
   }
