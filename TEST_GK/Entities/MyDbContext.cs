@@ -19,6 +19,14 @@ namespace TEST_GK.Entities
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity
+            modelBuilder.Entity<SinhVien>(s =>
+            {
+                s.ToTable("SinhVien");
+                s.HasKey(e => e.MaSinhVien);
+                s.Property(e => e.HoTen)
+                .HasMaxLength(100)
+                .IsRequired(true)
+                .IsUnicode(true);
+            });
         }
 }
